@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDD936322899B86D0096A549 /* SunsetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD936312899B86D0096A549 /* SunsetViewController.swift */; };
+		BDD936342899B94A0096A549 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD936332899B94A0096A549 /* MapViewController.swift */; };
+		BDD936382899BA380096A549 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD936372899BA380096A549 /* TableViewController.swift */; };
+		BDD9363A2899BA6F0096A549 /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD936392899BA6F0096A549 /* AddEventViewController.swift */; };
+		BDD9363C2899BAA80096A549 /* DeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD9363B2899BAA80096A549 /* DeleteViewController.swift */; };
 		BDFAB2EF289869B700A7AEBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFAB2EE289869B700A7AEBB /* AppDelegate.swift */; };
 		BDFAB2F1289869B700A7AEBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFAB2F0289869B700A7AEBB /* SceneDelegate.swift */; };
 		BDFAB2F3289869B700A7AEBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFAB2F2289869B700A7AEBB /* ViewController.swift */; };
@@ -37,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BDD936312899B86D0096A549 /* SunsetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunsetViewController.swift; sourceTree = "<group>"; };
+		BDD936332899B94A0096A549 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		BDD936372899BA380096A549 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BDD936392899BA6F0096A549 /* AddEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		BDD9363B2899BAA80096A549 /* DeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteViewController.swift; sourceTree = "<group>"; };
 		BDFAB2EB289869B700A7AEBB /* aCityOfUnfortunateEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aCityOfUnfortunateEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDFAB2EE289869B700A7AEBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDFAB2F0289869B700A7AEBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,8 +115,13 @@
 				BDFAB2F0289869B700A7AEBB /* SceneDelegate.swift */,
 				BDFAB2F2289869B700A7AEBB /* ViewController.swift */,
 				BDFAB2F4289869B700A7AEBB /* Main.storyboard */,
-				BDFAB2FA289869B800A7AEBB /* Assets.xcassets */,
+				BDD9363B2899BAA80096A549 /* DeleteViewController.swift */,
+				BDD936392899BA6F0096A549 /* AddEventViewController.swift */,
+				BDD936372899BA380096A549 /* TableViewController.swift */,
+				BDD936332899B94A0096A549 /* MapViewController.swift */,
+				BDD936312899B86D0096A549 /* SunsetViewController.swift */,
 				BDFAB2FC289869B800A7AEBB /* LaunchScreen.storyboard */,
+				BDFAB2FA289869B800A7AEBB /* Assets.xcassets */,
 				BDFAB2FF289869B800A7AEBB /* Info.plist */,
 				BDFAB2F7289869B700A7AEBB /* aCityOfUnfortunateEvents.xcdatamodeld */,
 			);
@@ -262,8 +277,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDFAB2F9289869B700A7AEBB /* aCityOfUnfortunateEvents.xcdatamodeld in Sources */,
+				BDD9363A2899BA6F0096A549 /* AddEventViewController.swift in Sources */,
+				BDD936382899BA380096A549 /* TableViewController.swift in Sources */,
+				BDD936342899B94A0096A549 /* MapViewController.swift in Sources */,
 				BDFAB2F3289869B700A7AEBB /* ViewController.swift in Sources */,
 				BDFAB2EF289869B700A7AEBB /* AppDelegate.swift in Sources */,
+				BDD936322899B86D0096A549 /* SunsetViewController.swift in Sources */,
+				BDD9363C2899BAA80096A549 /* DeleteViewController.swift in Sources */,
 				BDFAB2F1289869B700A7AEBB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
